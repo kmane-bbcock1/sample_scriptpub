@@ -10,4 +10,4 @@ export versionfromscript="pubtest1-v4"
 
 echo "versionfromscript=$versionfromscript"
 
-echo 'EOF'
+echo 'EOF!'
