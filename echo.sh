@@ -1,12 +1,12 @@
 #!/bin/bash -e
-echo 'this is public project script master branch'
+echo 'this is public project script test1 branch'
 
 lsb_release -a
 docker --version
 docker info
 docker ps
 
-export versionfromscript="pubtest1-v4"
+export versionfromscript="pubtest1-v5"
 
 echo "versionfromscript=$versionfromscript"
 
