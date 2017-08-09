@@ -6,7 +6,7 @@ docker --version
 docker info
 docker ps
 
-export versionfromscript="pubtest1-v5"
+export versionfromscript="pubtest1-v6"
 
 echo "versionfromscript=$versionfromscript"
 
