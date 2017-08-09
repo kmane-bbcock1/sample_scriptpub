@@ -1,8 +1,7 @@
-echo ' ---> Hello shnew'
-echo 'this is public project script'
-lsb_release -a
-docker --version
-docker info
-docker ps
-echo 'EOF'
+#!/bin/bash -e
+echo 'this is public project script cli1 branch'
+
+export versionfromscript="pubcli1-v1"
+echo "versionfromscript=$versionfromscript"
+echo 'EOF!'
 #sleep 5m 
