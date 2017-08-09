@@ -1,8 +1,13 @@
-echo ' ---> Hello shnew'
-echo 'this is public project script'
+#!/bin/bash -e
+echo 'this is public project script master branch'
+
 lsb_release -a
 docker --version
 docker info
 docker ps
+
+export versionfromscript="pubmaster-v1"
+
+echo "versionfromscript=$versionfromscript"
+
 echo 'EOF'
-#sleep 5m 
