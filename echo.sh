@@ -10,4 +10,4 @@ export versionfromscript="pubmaster-v5"
 
 echo "versionfromscript=$versionfromscript"
 
-echo 'EOF!'
+echo 'EOF!!'
